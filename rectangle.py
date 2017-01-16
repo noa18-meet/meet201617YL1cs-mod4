@@ -1,5 +1,6 @@
 import turtle
 
+turtle.shape=turtle
 class Rectangle :
     def __init__(self,length,height):
         """
