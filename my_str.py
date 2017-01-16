@@ -18,9 +18,10 @@ class MyStr(str) : #<-----Replace xyz-make a new class, MyStr, that inherits fro
     def replace(self, take_out, use_this):
         take_out2=take_out.lower()
         use_this2=use_this.lower()
-        test=super(MyStr,self).replace(take_out2,use_this2)
+        return self.lower().replace(take_out2,use_this2)
+    
         
-
+        
 
         """
         Override the replace method of string.
